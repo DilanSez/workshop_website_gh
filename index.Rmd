@@ -1,0 +1,36 @@
+---
+title: "My Website using rMarkdown, Distill and GitHub"
+description: |
+  Welcome to the website. I hope you enjoy it!
+site: distill::distill_website
+---
+
+Hello my Name is Dilan
+
+Remmeber this code: rmarkdown::render_site() # run code
+
+
+- 👋 Hi, I’m @DilanSez
+2
+- 👀 I’m interested in ...
+3
+- 🌱 I’m currently learning ...
+4
+- 💞️ I’m looking to collaborate on ...
+5
+- 📫 How to reach me ...
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# Learn more about creating websites with Distill at:
+# https://rstudio.github.io/distill/website.html
+
+# Learn more about publishing to GitHub Pages at:
+# https://rstudio.github.io/distill/publish_website.html#github-pages
+
+```
+
+```{r setup, include=FALSE}
+
